@@ -19,9 +19,6 @@ nav {
   width: 100%;
 }
 
-
-
-
 /*NAV BOOTSTRAMP */
 .container-fluid{
   display: flex;
@@ -63,9 +60,6 @@ main form  h4 {
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
 
 /*CONTENEDOR IMG ELIPSE  */
 .imagenPrincipal {
@@ -122,8 +116,6 @@ font-size: 40px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 /*SECCION CENTRAL GALERIA   */
 .galeriaMain{
   display: flex;
@@ -150,6 +142,12 @@ height: 100%;
   margin-top: 100px;
  }
 
+footer {
+  display: grid;
+  grid-gap:1rem;
+  padding: 1rem;
+ 
+}
 
 
 footer h4 {
