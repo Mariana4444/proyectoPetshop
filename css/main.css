@@ -1,0 +1,244 @@
+/*RESET*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/*CUERPO DE PAGINA */
+body {
+  background-color: #f4e0ea;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  width: 100%; }
+
+/*NAVEGADOR */
+nav {
+  background-color: #efdfe7;
+  width: 100%;
+  /*NAV BOOTSTRAMP */ }
+  nav .container-fluid {
+    display: flex;
+    justify-content: flex-end; }
+
+
+
+
+nav .container-fluid navbar-brand {
+      background-color: #d8b9c9; }
+
+.offcanvas-body {
+  background-color: #d8b9c9; }
+  .offcanvas-body .offcanvas-header {
+    background-color: #d8b9c9; }
+
+/*SECCION CENTRAL  */
+main {
+  width: 100%;
+  background-color: lavender blush;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*CONTENEDOR IMG ELIPSE  */ }
+  main .imagenPrincipal {
+    width: 100%;
+    background-color: #d8b9c9;
+    margin-top: 60px;
+    /*IMAGENES ELIPSE  */ }
+    main .imagenPrincipal .imagenPrincipal img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto; }
+
+/*CONTENEDOR IMG PRINCIPAL */
+.contenedordeCards {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+  background-color: #d8b9c9;
+  /*IMAGEN PERRO*/ }
+  .contenedordeCards .card {
+    width: 26%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    background-color: #d8b9c9;
+    /* ELIPSE  */ }
+    .contenedordeCards .card .elipse {
+      width: 100%;
+      height: 100%; }
+
+object, .elipse img {
+  object-fit: cover;
+  display: block; }
+
+/* IMG ELIPSE  */
+.elipse img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  /*LEYENDAS  */ }
+  .elipse img.leyenda {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+footer {
+  display: grid;
+  grid-gap: 1rem;
+  padding: 1rem; }
+  footer footer h4 {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+/*SECCION CENTRAL GALERIA   */
+.galeriaMain {
+  display: flex;
+  width: 100%;
+  height: 70vph;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #d8b9c9;
+  /*FOTO GALERIA PRIMERA FOTO   */ }
+  .galeriaMain .contenedorFoto {
+    width: 30%;
+    height: 100%; }
+    .galeriaMain .contenedorFoto .contenedorFoto img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      margin-top: 100px; }
+
+@media only screen and (max-width: 600px) {
+  .galeriaMain {
+    flex-direction: column;
+    height: 100%; } }
+
+/*es para ser responsive*/
+.contenedorFoto {
+  width: 100%; }
+
+.contenedordeCards {
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.card, .elipse {
+  width: 100%; }
+
+/*media queries celular acerca de nosotros*/
+@media only screen and (max-width: 600px) {
+  .galeriaMain {
+    flex-direction: column;
+    height: 100%; } }
+
+/*es para ser responsive*/
+.contenedorFoto {
+  width: 100%; }
+
+.contenedordeCards {
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.card, .elipse {
+  width: 100%; }
+
+main form {
+  margin: 5%; }
+  main form main form legend {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    main form main form legend main form h4 {
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+@media only screen and (max-width: 600px) {
+  .galeriaMain {
+    flex-direction: column;
+    height: 100%; } }
+
+/*es para ser responsive*/
+.contenedorFoto {
+  width: 100%; }
+
+.contenedordeCards {
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.card, .elipse {
+  width: 100%; }
+
+main form {
+  margin: 5%; }
+  main form main form legend {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; }
+    main form main form legend main form h4 {
+      font-size: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif; }
+
+@media only screen and (max-width: 600px) {
+  .galeriaMain {
+    flex-direction: column;
+    height: 100%; } }
+
+/*es para ser responsive*/
+.contenedorFoto {
+  width: 100%; }
+
+.contenedordeCards {
+  flex-direction: column;
+  height: 100%;
+  width: 100%; }
+
+.card, .elipse {
+  width: 100%; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
