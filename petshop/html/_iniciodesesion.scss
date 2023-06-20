@@ -1,0 +1,43 @@
+
+main form{
+    margin: 5%; 
+    
+    & main form legend {
+    font-size: 20px;
+    font-family: $fuente-secundaria;
+    
+     & main form  h4 {
+       font-size: 20px;
+       font-family: $fuente-secundaria;
+      
+      }
+   }
+}
+
+
+@media only screen and (max-width: 600px) { .galeriaMain{
+   flex-direction: column;
+   height: 100%;
+ }
+ }
+ 
+ /*es para ser responsive*/
+ 
+ .contenedorFoto{
+ width: 100%;
+ }
+ 
+ .contenedordeCards{
+ flex-direction: column;
+ height: 100%;
+ width: 100%;
+ }
+ .card,.elipse {
+   width: 100%;
+ 
+ }
+ 
+   
+ 
+  
+  
