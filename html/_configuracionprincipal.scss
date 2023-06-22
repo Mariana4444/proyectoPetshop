@@ -1,0 +1,149 @@
+
+/*CUERPO DE PAGINA */
+body{
+  background-color: $color-principal;
+  font-family: $fuente-principal;
+  height: 100%;
+  width: 100%;
+    
+}
+
+@mixin flex {
+
+  display: flex;
+
+}
+
+
+/*NAVEGADOR */
+
+nav {
+  
+  background-color: $color-secundario;
+  width: 100%;
+  
+  /*NAV BOOTSTRAMP */
+  
+  .container-fluid {
+  @include flex;
+  justify-content: flex-end;
+  
+  & navbar-brand{
+    background-color: $color-terciario;
+  
+    }
+  } 
+}
+.offcanvas-body{
+  background-color: $color-terciario;
+  
+  & .offcanvas-header{
+  background-color: $color-terciario;
+  
+  }
+}
+
+@mixin direction {
+ 
+  flex-direction: column;
+
+}
+
+/*SECCION CENTRAL  */
+main {
+  
+  width: 100%;
+  background-color: $color-cuaternario;
+  @include flex;
+  @include direction;
+  align-items: center;
+
+  /*CONTENEDOR IMG ELIPSE  */ 
+  & .imagenPrincipal {
+      
+    width: 100%;
+    background-color: $color-terciario; 
+    margin-top: 60px;
+      
+      /*IMAGENES ELIPSE  */ 
+    
+      & .imagenPrincipal img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+    
+    }
+  }
+}
+
+  
+/*CONTENEDOR IMG PRINCIPAL */
+
+.contenedordeCards {
+  
+  width: 100%;
+  @include flex;
+  justify-content: space-evenly;
+  padding: 100px 0;
+  background-color: $color-terciario;
+  
+  /*IMAGEN PERRO*/ 
+  & .card {
+    width: 26%;
+    @include flex;
+    @include direction;
+    justify-content: center;
+    border: none;
+    background-color: $color-terciario;
+    
+    /* ELIPSE  */ 
+    &  .elipse {
+      width: 100%;
+      height: 100%;
+    }
+  }
+    
+}
+
+object {
+  object-fit: cover;
+  display: block;
+
+}
+
+
+/* IMG ELIPSE  */
+
+  .elipse img{
+ 
+    width: 100%;
+    height: 100%;
+    @extend object;
+    border-radius: 50%;
+
+    /*LEYENDAS  */
+    &.leyenda{
+      
+      font-size: 40px;
+      font-family: $fuente-secundaria;
+    }
+    
+  }
+
+footer {
+  display: grid;
+  grid-gap:1rem;
+  padding: 1rem;
+    
+  & footer h4 {
+    font-size: 20px;
+    font-family: $fuente-secundaria;
+  }
+   
+}
+  
+  
+  
+
+  
