@@ -35,11 +35,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   /*CONTENEDOR IMG ELIPSE  */ }
   main .imagenPrincipal {
-    width: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
     background-color: #d8b9c9;
-    margin-top: 60px;
+    margin: 0 auto;
     /*IMAGENES ELIPSE  */ }
     main .imagenPrincipal .imagenPrincipal img {
       object-fit: cover;
@@ -82,12 +85,15 @@ object, .elipse img {
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 footer {
-  display: grid;
-  grid-gap: 1rem;
-  padding: 1rem; }
+  display: flex;
+  flex-direction: column; }
   footer footer h4 {
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  footer .social img {
+    width: 48px; }
+  footer .links p {
+    margin: 10px; }
 
 /*SECCION CENTRAL GALERIA   */
 .galeriaMain {
@@ -141,9 +147,6 @@ footer {
 
 .card, .elipse {
   width: 100%; }
-
-p {
-  margin-bottom: 50px; }
 
 main form {
   margin: 5%; }

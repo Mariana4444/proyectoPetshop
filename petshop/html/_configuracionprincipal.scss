@@ -57,13 +57,18 @@ main {
   @include flex;
   @include direction;
   align-items: center;
+  margin: 0 auto;
+  
 
   /*CONTENEDOR IMG ELIPSE  */ 
   & .imagenPrincipal {
       
-    width: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
     background-color: $color-terciario; 
-    margin-top: 60px;
+    
+    margin: 0 auto;
       
       /*IMAGENES ELIPSE  */ 
     
@@ -132,17 +137,27 @@ object {
   }
 
 footer {
-  display: grid;
-  grid-gap:1rem;
-  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+
     
   & footer h4 {
     font-size: 20px;
     font-family: $fuente-secundaria;
   }
-   
+  & 
+   .social img {
+  width: 48px;
+  
+}
+
+.links p{
+  margin: 10px;
+}
 }
   
+
+
   
   
 
