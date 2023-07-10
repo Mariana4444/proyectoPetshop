@@ -11,17 +11,68 @@
 
 .contenedorFoto{
   width: 100%;
+  
+  
 }
 
 .contenedordeCards{
   flex-direction: column;
   height: 100%;
   width: 100%;
+  
+ 
 }
 .card,.elipse {
   width: 100%;
 }
 
+main p {
+  margin: 20px;
+  font-size: 26px;
+  
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+    
+  & .novedades h4 {
+    
+    font-family: $fuente-secundaria;
+    padding: 10px;
+    
+    
+  }
+
+  .novedades input {
+    margin: 10px;
+  }
+  & 
+   .social img {
+  width: 80px;
+  font-size: 30px;
+  padding: 10px;
+  
+}
+
+.social p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+
+& .links ul li {
+  font-size: 23px;
+  margin: 0 auto;
+}
+}
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px;
+}
 
 
  

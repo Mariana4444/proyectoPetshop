@@ -28,6 +28,9 @@ nav {
   .offcanvas-body .offcanvas-header {
     background-color: #d8b9c9; }
 
+.container-fluid a {
+  font-size: 35px; }
+
 /*SECCION CENTRAL  */
 main {
   width: 100%;
@@ -83,17 +86,32 @@ object, .elipse img {
   .elipse img.leyenda {
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
+  .elipse img .leyenda p {
+    font-size: 60px; }
 
 footer {
   display: flex;
   flex-direction: column; }
-  footer footer h4 {
-    font-size: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; }
-  footer .social img {
-    width: 48px; }
-  footer .links p {
+  footer .novedades h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; }
+  footer .novedades input {
     margin: 10px; }
+  footer .social img {
+    width: 80px;
+    font-size: 30px;
+    padding: 10px; }
+  footer .social p {
+    font-size: 25px;
+    padding: 20px; }
+  footer .links ul li {
+    font-size: 23px;
+    margin: 0 auto; }
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px; }
 
 /*SECCION CENTRAL GALERIA   */
 .galeriaMain {
@@ -130,6 +148,30 @@ footer {
 .card, .elipse {
   width: 100%; }
 
+footer {
+  display: flex;
+  flex-direction: column; }
+  footer .novedades h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; }
+  footer .novedades input {
+    margin: 10px; }
+  footer .social img {
+    width: 80px;
+    font-size: 30px;
+    padding: 10px; }
+  footer .social p {
+    font-size: 25px;
+    padding: 20px; }
+  footer .links ul li {
+    font-size: 23px;
+    margin: 0 auto; }
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px; }
+
 /*media queries celular acerca de nosotros*/
 @media only screen and (max-width: 600px) {
   .galeriaMain {
@@ -147,6 +189,34 @@ footer {
 
 .card, .elipse {
   width: 100%; }
+
+main p {
+  margin: 20px;
+  font-size: 26px; }
+
+footer {
+  display: flex;
+  flex-direction: column; }
+  footer .novedades h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; }
+  footer .novedades input {
+    margin: 10px; }
+  footer .social img {
+    width: 80px;
+    font-size: 30px;
+    padding: 10px; }
+  footer .social p {
+    font-size: 25px;
+    padding: 20px; }
+  footer .links ul li {
+    font-size: 23px;
+    margin: 0 auto; }
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px; }
 
 main form {
   margin: 5%; }
@@ -175,24 +245,52 @@ main form {
   width: 100%; }
 
 .correoElectronico {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .contraseña {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .iniciodeSesion {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .registrarse {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 h4 {
   margin: 40px 2px; }
 
+footer {
+  display: flex;
+  flex-direction: column; }
+  footer .novedades h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; }
+  footer .novedades input {
+    margin: 10px; }
+  footer .social img {
+    width: 80px;
+    font-size: 30px;
+    padding: 10px; }
+  footer .social p {
+    font-size: 25px;
+    padding: 20px; }
+  footer .links ul li {
+    font-size: 23px;
+    margin: 0 auto; }
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px; }
+
 main form {
   margin: 5%; }
   main form main form legend {
-    font-size: 20px;
+    font-size: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; }
     main form main form legend main form h4 {
       font-size: 20px;
@@ -221,24 +319,28 @@ main form {
     font-size: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif; } }
 
-main form h4 {
-  font-size: 10px;
+main form h2 {
+  font-size: 45px;
   font-family: Verdana, Geneva, Tahoma, sans-serif; }
 
 main form {
-  margin: 5%; }
+  margin: 10%; }
 
 .nombre {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .apellidos {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .documentodeIdentidad {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .fechadeNacimiento {
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-size: 25px; }
 
 .crearCuenta {
   margin: 40px auto; }
@@ -249,6 +351,80 @@ h4 {
 .registrarse {
   margin: 40px auto;
   font-size: 20px; }
+
+.telefonoMovil {
+  font-size: 25px; }
+
+.correoElectronico {
+  font-size: 25px; }
+
+.contraseña {
+  font-size: 25px; }
+
+.confirmarContraseña {
+  font-size: 25px; }
+
+.crearCuenta legend {
+  font-size: 30px; }
+
+.Registrarse legend {
+  font-size: 30px;
+  margin: 30px; }
+
+footer {
+  display: flex;
+  flex-direction: column; }
+  footer .novedades h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px; }
+  footer .novedades input {
+    margin: 10px; }
+  footer .social img {
+    width: 80px;
+    font-size: 30px;
+    padding: 10px; }
+  footer .social p {
+    font-size: 25px;
+    padding: 20px; }
+  footer .links ul li {
+    font-size: 23px;
+    margin: 0 auto; }
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px; }
+
+.nombre {
+  font-size: 25px; }
+
+.apellidos {
+  font-size: 25px; }
+
+.documentodeIdentidad {
+  font-size: 25px; }
+
+.fechadeNacimiento {
+  font-size: 25px; }
+
+.telefonoMovil {
+  font-size: 25px; }
+
+.correoElectronico {
+  font-size: 25px; }
+
+.contraseña {
+  font-size: 25px; }
+
+.confirmarContraseña {
+  font-size: 25px; }
+
+.crearCuenta legend {
+  font-size: 30px; }
+
+.Registrarse legend {
+  font-size: 30px;
+  margin: 30px; }
 
 .contenedordeCards {
   display: flex;

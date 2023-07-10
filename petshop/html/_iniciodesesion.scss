@@ -37,27 +37,75 @@ main form{
  
  }
 
+ 
  .correoElectronico{
   margin: 40px auto;
+  font-size: 25px;
   }
 
   .contraseña{
-   margin: 40px auto
+   margin: 40px auto;
+   font-size: 25px;
 
   }
 
   .iniciodeSesion {
-    margin: 40px auto
+    margin: 40px auto;
+    font-size: 25px;
   }
 
   .registrarse {
-    margin: 40px auto
+    margin: 40px auto;
+    font-size: 25px;
   }
 
   h4{
     margin: 40px 2px ;
     
   }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+  
+      
+    & .novedades h4 {
+      
+      font-family: $fuente-secundaria;
+      padding: 10px;
+      
+      
+    }
+  
+    .novedades input {
+      margin: 10px;
+    }
+    & 
+     .social img {
+    width: 80px;
+    font-size: 30px;
+    padding: 10px;
+    
+  }
+  
+  .social p {
+    font-size: 25px;
+    padding: 20px;
+  }
+  
+  
+  & .links ul li {
+    font-size: 23px;
+    margin: 0 auto;
+  }
+  }
+  
+  .links p {
+    font-size: 40px;
+    margin: 10px auto;
+    padding: 20px;
+  }
+  
 
   
 

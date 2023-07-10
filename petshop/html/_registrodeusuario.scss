@@ -3,7 +3,7 @@ main form{
   margin: 5%; 
   
   & main form legend {
-  font-size: 20px;
+  font-size: 100px;
   font-family: $fuente-secundaria;
   
    & main form  h4 {
@@ -13,6 +13,7 @@ main form{
     }
  }
 }
+
 
 
 @media only screen and (max-width: 600px) { .galeriaMain{
@@ -49,30 +50,35 @@ and (max-width: 1024px){  main form legend {
     
 }
 
-main form h4 {
-  font-size: 10px;
+main form h2 {
+  font-size: 45px;
   font-family: $fuente-secundaria;
  
 }
 
-main form{ margin: 5%; 
+main form{ margin: 10%; 
 
 }
 
 .nombre{
   margin: 40px auto;
+  font-size: 25px;
 }
 
 .apellidos{
   margin: 40px auto;
+  font-size: 25px;
 }
+
 
 .documentodeIdentidad{
   margin: 40px auto;
+  font-size: 25px;
 }
 
 .fechadeNacimiento{
   margin: 40px auto;
+  font-size: 25px;
 }
 
 .crearCuenta{
@@ -87,6 +93,116 @@ h4{
 .registrarse {
   margin: 40px auto;
   font-size: 20px;
+}
+
+.telefonoMovil {
+  font-size: 25px;
+}
+
+.correoElectronico {
+  font-size: 25px;
+}
+
+.contraseña {
+  font-size: 25px;
+}
+
+.confirmarContraseña {
+  font-size: 25px;
+}
+
+.crearCuenta legend {
+  font-size: 30px;
+}
+
+
+.Registrarse legend {
+  font-size: 30px;
+  margin: 30px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+
+    
+  & .novedades h4 {
+    
+    font-family: $fuente-secundaria;
+    padding: 10px;
+    
+    
+  }
+
+  .novedades input {
+    margin: 10px;
+  }
+  & 
+   .social img {
+  width: 80px;
+  font-size: 30px;
+  padding: 10px;
+  
+}
+
+.social p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+
+& .links ul li {
+  font-size: 23px;
+  margin: 0 auto;
+}
+}
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+.nombre {
+  font-size: 25px;
+}
+
+.apellidos {
+  font-size: 25px;
+}
+
+.documentodeIdentidad{
+  font-size: 25px;
+}
+
+.fechadeNacimiento{
+  font-size: 25px;
+}
+
+.telefonoMovil {
+  font-size: 25px;
+}
+
+.correoElectronico {
+  font-size: 25px;
+}
+
+.contraseña {
+  font-size: 25px;
+}
+
+.confirmarContraseña {
+  font-size: 25px;
+}
+
+.crearCuenta legend {
+  font-size: 30px;
+}
+
+
+.Registrarse legend {
+  font-size: 30px;
+  margin: 30px;
 }
 
 

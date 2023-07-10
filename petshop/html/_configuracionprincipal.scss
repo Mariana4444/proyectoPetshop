@@ -22,6 +22,7 @@ nav {
   background-color: $color-secundario;
   width: 100%;
   
+  
   /*NAV BOOTSTRAMP */
   
   .container-fluid {
@@ -30,7 +31,10 @@ nav {
   
   & navbar-brand{
     background-color: $color-terciario;
+    
+    
   
+    
     }
   } 
 }
@@ -48,6 +52,12 @@ nav {
   flex-direction: column;
 
 }
+
+.container-fluid a {
+  font-size: 35px;
+}
+
+  
 
 /*SECCION CENTRAL  */
 main {
@@ -92,6 +102,10 @@ main {
   justify-content: space-evenly;
   padding: 100px 0;
   background-color: $color-terciario;
+
+  
+
+
   
   /*IMAGEN PERRO*/ 
   & .card {
@@ -133,6 +147,12 @@ object {
       font-size: 40px;
       font-family: $fuente-secundaria;
     }
+
+    .leyenda p {
+      font-size: 60px;
+    }
+
+    
     
   }
 
@@ -141,20 +161,44 @@ footer {
   flex-direction: column;
 
     
-  & footer h4 {
-    font-size: 20px;
+  & .novedades h4 {
+    
     font-family: $fuente-secundaria;
+    padding: 10px;
+    
+    
+  }
+
+  .novedades input {
+    margin: 10px;
   }
   & 
    .social img {
-  width: 48px;
+  width: 80px;
+  font-size: 30px;
+  padding: 10px;
   
 }
 
-.links p{
-  margin: 10px;
+.social p {
+  font-size: 25px;
+  padding: 20px;
+}
+
+
+& .links ul li {
+  font-size: 23px;
+  margin: 0 auto;
 }
 }
+
+.links p {
+  font-size: 40px;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+
   
 
 
